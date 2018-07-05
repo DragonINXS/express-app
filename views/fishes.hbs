@@ -1,0 +1,13 @@
+<h1>All the Fish Stuff</h1>
+
+
+{{#each fishArray}}
+
+<div>
+    <span>{{this.type}}</span>
+    <span>{{this.favoriteFood}}</span>
+</div>
+
+<a href="/fishes/{{this._id}}">See all the Fish Stuff</a>
+
+{{/each}}
